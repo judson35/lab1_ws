@@ -1,0 +1,30 @@
+[35m[1mScanning dependencies of target talker[0m
+[ 50%] Built target relay
+[ 75%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:[m[K In constructor ‘[01m[KTalker::Talker()[m[K’:
+[01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:40:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscriber[m[K’ was not declared in this scope
+   40 |                 [01;31m[Ksubscriber[m[K = this->create_subscription<ackermann_msgs::msg::AckermannDriveStamped>(
+      |                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:41:62:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kvoid[m[K’
+   41 |                                 "drive_relay", 10, std::bind([01;31m[Kvoid[m[K, this, std::placeholders::_1));
+      |                                                              [01;31m[K^~~~[m[K
+[01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:43:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[Kcatch[m[K’ before ‘[01m[K}[m[K’ token
+   43 |         [01;31m[K}[m[K
+      |         [01;31m[K^[m[K
+[01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:43:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ before ‘[01m[K}[m[K’ token
+   43 |         [01;31m[K}[m[K
+      |         [01;31m[K^[m[K
+      |         [32m[K([m[K
+[01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:43:9:[m[K [01;31m[Kerror: [m[Kexpected type-specifier before ‘[01m[K}[m[K’ token
+[01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:42:14:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K}[m[K’ token
+   42 |             }
+      |              [01;31m[K^[m[K
+      |              [32m[K)[m[K
+   43 |         [32m[K}[m[K
+      |         [32m[K~[m[K     
+[01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:43:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K}[m[K’ token
+   43 |         [01;31m[K}[m[K
+      |         [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/talker.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/talker.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

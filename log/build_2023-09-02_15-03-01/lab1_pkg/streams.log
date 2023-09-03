@@ -1,0 +1,11 @@
+[0.029s] Invoking command in '/home/judson35/lab1_ws/build/lab1_pkg': CMAKE_PREFIX_PATH=/home/judson35/lab1_ws/install/lab1_pkg:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --build /home/judson35/lab1_ws/build/lab1_pkg -- -j8 -l8
+[0.101s] [35m[1mScanning dependencies of target talker[0m
+[0.160s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[2.403s] [01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:[m[K In member function ‘[01m[Krcl_interfaces::msg::SetParametersResult Talker::parametersCallback(const std::vector<rclcpp::Parameter>&)[m[K’:
+[2.403s] [01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:32:53:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst value_type[m[K’ {aka ‘[01m[Kconst rclcpp::Parameter[m[K’}
+[2.404s]    32 |         double x = static_cast<double>(parameters[0][01;31m[K->[m[Kas_int());
+[2.404s]       |                                                     [01;31m[K^~[m[K
+[3.881s] make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/talker.cpp.o] Error 1
+[3.882s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/talker.dir/all] Error 2
+[3.882s] make: *** [Makefile:141: all] Error 2
+[3.885s] Invoked command in '/home/judson35/lab1_ws/build/lab1_pkg' returned '2': CMAKE_PREFIX_PATH=/home/judson35/lab1_ws/install/lab1_pkg:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --build /home/judson35/lab1_ws/build/lab1_pkg -- -j8 -l8

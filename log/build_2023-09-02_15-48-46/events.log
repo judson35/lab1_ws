@@ -1,0 +1,143 @@
+[0.000000] (-) TimerEvent: {}
+[0.001520] (lab1_pkg) JobQueued: {'identifier': 'lab1_pkg', 'dependencies': OrderedDict()}
+[0.001584] (lab1_pkg) JobStarted: {'identifier': 'lab1_pkg'}
+[0.022817] (lab1_pkg) JobProgress: {'identifier': 'lab1_pkg', 'progress': 'cmake'}
+[0.024189] (lab1_pkg) JobProgress: {'identifier': 'lab1_pkg', 'progress': 'build'}
+[0.025629] (lab1_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/judson35/lab1_ws/build/lab1_pkg', '--', '-j8', '-l8'], 'cwd': '/home/judson35/lab1_ws/build/lab1_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'judson35'), ('SSH_AGENT_PID', '1482'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/judson35'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/judson35/lab1_ws/src'), ('TERM_PROGRAM_VERSION', '1.81.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1130'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '148382'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/judson35/lab1_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'judson35'), ('JOURNAL_STREAM', '8:40649'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'judson35'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/judson35/catkin_ws/src/quad-sdk/quad_simulator/spirit_description:/home/judson35/catkin_ws/src/quad-sdk/quad_simulator/other/sensor_description:/home/judson35/catkin_ws/src/quad-sdk/quad_simulator/other/objects_description:/home/judson35/catkin_ws/src/quad-sdk/quad_simulator/gazebo_scripts/worlds:/home/judson35/catkin_ws/src/quad-sdk/quad_simulator/spirit_description:/home/judson35/catkin_ws/src/quad-sdk/quad_simulator/other/sensor_description:/home/judson35/catkin_ws/src/quad-sdk/quad_simulator/other/objects_description:/home/judson35/catkin_ws/src/quad-sdk/quad_simulator/gazebo_scripts/worlds:/home/judson35/catkin_ws/src/quad-sdk/quad_simulator/spirit_description:/home/judson35/catkin_ws/src/quad-sdk/quad_simulator/other/sensor_description:/home/judson35/catkin_ws/src/quad-sdk/quad_simulator/other/objects_description:/home/judson35/catkin_ws/src/quad-sdk/quad_simulator/gazebo_scripts/worlds:/home/judson35/catkin_ws/src/quad-sdk/quad_simulator/spirit_description:/home/judson35/catkin_ws/src/quad-sdk/quad_simulator/other/sensor_description:/home/judson35/catkin_ws/src/quad-sdk/quad_simulator/other/objects_description:/home/judson35/catkin_ws/src/quad-sdk/quad_simulator/gazebo_scripts/worlds:/home/judson35/catkin_ws/src/quad-sdk/quad_simulator/spirit_description:/home/judson35/catkin_ws/src/quad-sdk/quad_simulator/other/sensor_description:/home/judson35/catkin_ws/src/quad-sdk/quad_simulator/other/objects_description:/home/judson35/catkin_ws/src/quad-sdk/quad_simulator/gazebo_scripts/worlds:/home/judson35/catkin_ws/src/quad-sdk/quad_simulator/spirit_description:/home/judson35/catkin_ws/src/quad-sdk/quad_simulator/other/sensor_description:/home/judson35/catkin_ws/src/quad-sdk/quad_simulator/other/objects_description:/home/judson35/catkin_ws/src/quad-sdk/quad_simulator/gazebo_scripts/worlds:/home/judson35/catkin_ws/src/quad-sdk/quad_simulator/spirit_description:/home/judson35/catkin_ws/src/quad-sdk/quad_simulator/other/sensor_description:/home/judson35/catkin_ws/src/quad-sdk/quad_simulator/other/objects_description:/home/judson35/catkin_ws/src/quad-sdk/quad_simulator/gazebo_scripts/worlds'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/noetic/bin:/home/judson35/.local/bin:/home/judson35/bin:/opt/ros/foxy/bin:/home/judson35/.local/bin:/home/judson35/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/judson35-XPS-13-7390:@/tmp/.ICE-unix/1521,unix/judson35-XPS-13-7390:/tmp/.ICE-unix/1521'), ('INVOCATION_ID', '60551f681a0142c389125a136c6db753'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-1ba2b0d507.sock'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '35'), ('AMENT_PREFIX_PATH', '/home/judson35/lab1_ws/install/lab1_pkg:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/judson35/lab1_ws/build/lab1_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/noetic/lib/python3/dist-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/judson35/lab1_ws/install/lab1_pkg:/opt/ros/foxy:/opt/ros/noetic')]), 'shell': False}
+[0.097730] (lab1_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target relay\x1b[0m\n'}
+[0.099572] (-) TimerEvent: {}
+[0.128882] (lab1_pkg) StdoutLine: {'line': b'[ 50%] Built target talker\n'}
+[0.138134] (lab1_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/relay.dir/src/relay.cpp.o\x1b[0m\n'}
+[0.199726] (-) TimerEvent: {}
+[0.300123] (-) TimerEvent: {}
+[0.400578] (-) TimerEvent: {}
+[0.500948] (-) TimerEvent: {}
+[0.601318] (-) TimerEvent: {}
+[0.701695] (-) TimerEvent: {}
+[0.802049] (-) TimerEvent: {}
+[0.902412] (-) TimerEvent: {}
+[1.002782] (-) TimerEvent: {}
+[1.103155] (-) TimerEvent: {}
+[1.203532] (-) TimerEvent: {}
+[1.303906] (-) TimerEvent: {}
+[1.404280] (-) TimerEvent: {}
+[1.504656] (-) TimerEvent: {}
+[1.605007] (-) TimerEvent: {}
+[1.705375] (-) TimerEvent: {}
+[1.805749] (-) TimerEvent: {}
+[1.906115] (-) TimerEvent: {}
+[2.006469] (-) TimerEvent: {}
+[2.106841] (-) TimerEvent: {}
+[2.207214] (-) TimerEvent: {}
+[2.307591] (-) TimerEvent: {}
+[2.366196] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/judson35/lab1_ws/src/lab1_pkg/src/relay.cpp:12:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[KMinimalSubscriber\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[2.366490] (lab1_pkg) StderrLine: {'line': b'   12 |   MinimalSubscriber(\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[2.366626] (lab1_pkg) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.371283] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/judson35/lab1_ws/src/lab1_pkg/src/relay.cpp:30:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.371497] (lab1_pkg) StderrLine: {'line': b'   30 |   rclcpp::Subscription<\x1b[01;31m\x1b[Ktutorial_interfaces\x1b[m\x1b[K::msg::Num>::SharedPtr subscription_;\n'}
+[2.371657] (lab1_pkg) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.371780] (lab1_pkg) StderrLine: {'line': b'      |                        \x1b[32m\x1b[Krcl_interfaces\x1b[m\x1b[K\n'}
+[2.371896] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/judson35/lab1_ws/src/lab1_pkg/src/relay.cpp:30:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.372011] (lab1_pkg) StderrLine: {'line': b'   30 | :Subscription<tutorial_interfaces::msg::Num\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr subscription_;\n'}
+[2.372123] (lab1_pkg) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.372234] (lab1_pkg) StderrLine: {'line': b'\n'}
+[2.372345] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/judson35/lab1_ws/src/lab1_pkg/src/relay.cpp:30:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 3 is invalid\n'}
+[2.372457] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/judson35/lab1_ws/src/lab1_pkg/src/relay.cpp:30:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[2.372571] (lab1_pkg) StderrLine: {'line': b'   30 | bscription<tutorial_interfaces::msg::Num>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K subscription_;\n'}
+[2.372684] (lab1_pkg) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.372803] (lab1_pkg) StderrLine: {'line': b'      |                                                     \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[2.375007] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/judson35/lab1_ws/src/lab1_pkg/src/relay.cpp:30:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscription_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_subscription_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.375362] (lab1_pkg) StderrLine: {'line': b'   30 | tion<tutorial_interfaces::msg::Num>::SharedPtr \x1b[01;31m\x1b[Ksubscription_\x1b[m\x1b[K;\n'}
+[2.375590] (lab1_pkg) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.375792] (lab1_pkg) StderrLine: {'line': b'      |                                                \x1b[32m\x1b[Krcl_subscription_t\x1b[m\x1b[K\n'}
+[2.384778] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/judson35/lab1_ws/src/lab1_pkg/src/relay.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint Relay::MinimalSubscriber()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.385117] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/judson35/lab1_ws/src/lab1_pkg/src/relay.cpp:13:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Konly constructors take member initializers\n'}
+[2.385315] (lab1_pkg) StderrLine: {'line': b'   13 |   : \x1b[01;31m\x1b[KNode\x1b[m\x1b[K("drive_relay_node") {\n'}
+[2.385493] (lab1_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.389128] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/judson35/lab1_ws/src/lab1_pkg/src/relay.cpp:14:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscription_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_subscription_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.389457] (lab1_pkg) StderrLine: {'line': b'   14 |     \x1b[01;31m\x1b[Ksubscription_\x1b[m\x1b[K = this->create_subscription<ackermann_msgs::msg::AckermannDriveStamped>(\n'}
+[2.389697] (lab1_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.389978] (lab1_pkg) StderrLine: {'line': b'      |     \x1b[32m\x1b[Krcl_subscription_t\x1b[m\x1b[K\n'}
+[2.407737] (-) TimerEvent: {}
+[2.415966] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/judson35/lab1_ws/src/lab1_pkg/src/relay.cpp:19:3:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[2.423844] (lab1_pkg) StderrLine: {'line': b'   19 |   \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[2.424085] (lab1_pkg) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.424277] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/judson35/lab1_ws/src/lab1_pkg/src/relay.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Relay::topic_callback(ackermann_msgs::msg::AckermannDriveStamped_<std::allocator<void> >::SharedPtr) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.424466] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/judson35/lab1_ws/src/lab1_pkg/src/relay.cpp:24:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct ackermann_msgs::msg::AckermannDriveStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct ackermann_msgs::msg::AckermannDriveStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kspeed\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.424678] (lab1_pkg) StderrLine: {'line': b'   24 |     relay_message.drive.speed = message->\x1b[01;31m\x1b[Kspeed\x1b[m\x1b[K * 3;\n'}
+[2.424862] (lab1_pkg) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.425044] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/judson35/lab1_ws/src/lab1_pkg/src/relay.cpp:25:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct ackermann_msgs::msg::AckermannDriveStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct ackermann_msgs::msg::AckermannDriveStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Ksteering_angle\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.425265] (lab1_pkg) StderrLine: {'line': b'   25 | ay_message.drive.steering_angle = message->\x1b[01;31m\x1b[Ksteering_angle\x1b[m\x1b[K * 3;\n'}
+[2.425444] (lab1_pkg) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.425622] (lab1_pkg) StderrLine: {'line': b'\n'}
+[2.507885] (-) TimerEvent: {}
+[2.608303] (-) TimerEvent: {}
+[2.708709] (-) TimerEvent: {}
+[2.809072] (-) TimerEvent: {}
+[2.909445] (-) TimerEvent: {}
+[3.009818] (-) TimerEvent: {}
+[3.110165] (-) TimerEvent: {}
+[3.210531] (-) TimerEvent: {}
+[3.310900] (-) TimerEvent: {}
+[3.411341] (-) TimerEvent: {}
+[3.511802] (-) TimerEvent: {}
+[3.612201] (-) TimerEvent: {}
+[3.712599] (-) TimerEvent: {}
+[3.798665] (lab1_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[3.799008] (lab1_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[3.799155] (lab1_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/string:41\x1b[m\x1b[K,\n'}
+[3.799288] (lab1_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[3.799411] (lab1_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[3.799529] (lab1_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[3.799643] (lab1_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/functional:54\x1b[m\x1b[K,\n'}
+[3.799760] (lab1_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/judson35/lab1_ws/src/lab1_pkg/src/relay.cpp:2\x1b[m\x1b[K:\n'}
+[3.799881] (lab1_pkg) StderrLine: {'line': b'/usr/include/c++/9/ext/new_allocator.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = Relay; _Args = {}; _Tp = Relay]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.800002] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/alloc_traits.h:483:4:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_CharT> >::construct(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, _Up*, _Args&& ...) [with _Up = Relay; _Args = {}; _Tp = Relay; std::allocator_traits<std::allocator<_CharT> >::allocator_type = std::allocator<Relay>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.800129] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr_base.h:548:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {}; _Tp = Relay; _Alloc = std::allocator<Relay>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.800253] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr_base.h:679:16:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = Relay; _Alloc = std::allocator<Relay>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.800378] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr_base.h:1344:71:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<Relay>; _Args = {}; _Tp = Relay; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.800497] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:359:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<Relay>; _Args = {}; _Tp = Relay]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.800618] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:701:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = Relay; _Alloc = std::allocator<Relay>; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.800738] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:717:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = Relay; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.800855] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/judson35/lab1_ws/src/lab1_pkg/src/relay.cpp:36:40:\x1b[m\x1b[K   required from here\n'}
+[3.800993] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ext/new_allocator.h:146:4:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kuse of deleted function \xe2\x80\x98\x1b[01m\x1b[KRelay::Relay()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.801126] (lab1_pkg) StderrLine: {'line': b'  146 |  { \x1b[01;31m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[3.801312] (lab1_pkg) StderrLine: {'line': b'      |    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.801444] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/judson35/lab1_ws/src/lab1_pkg/src/relay.cpp:10:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KRelay::Relay()\x1b[m\x1b[K\xe2\x80\x99 is implicitly deleted because the default definition would be ill-formed:\n'}
+[3.801570] (lab1_pkg) StderrLine: {'line': b'   10 | class \x1b[01;36m\x1b[KRelay\x1b[m\x1b[K : public rclcpp::Node {\n'}
+[3.801691] (lab1_pkg) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.801809] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/judson35/lab1_ws/src/lab1_pkg/src/relay.cpp:10:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.801967] (lab1_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[3.802088] (lab1_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[3.802220] (lab1_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[3.802337] (lab1_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/judson35/lab1_ws/src/lab1_pkg/src/relay.cpp:5\x1b[m\x1b[K:\n'}
+[3.802464] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:1193:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(const rclcpp::Node&, const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.802586] (lab1_pkg) StderrLine: {'line': b' 1193 |   \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[3.802702] (lab1_pkg) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.802817] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:1193:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 0 provided\n'}
+[3.802935] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:98:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(const string&, const string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.803051] (lab1_pkg) StderrLine: {'line': b'   98 |   explicit \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[3.803170] (lab1_pkg) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.803288] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:98:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 0 provided\n'}
+[3.803404] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:86:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(const string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.803523] (lab1_pkg) StderrLine: {'line': b'   86 |   explicit \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[3.803638] (lab1_pkg) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.803752] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:86:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 0 provided\n'}
+[3.812725] (-) TimerEvent: {}
+[3.913193] (-) TimerEvent: {}
+[4.013568] (-) TimerEvent: {}
+[4.113937] (-) TimerEvent: {}
+[4.214311] (-) TimerEvent: {}
+[4.314700] (-) TimerEvent: {}
+[4.415052] (-) TimerEvent: {}
+[4.515438] (-) TimerEvent: {}
+[4.615820] (-) TimerEvent: {}
+[4.716185] (-) TimerEvent: {}
+[4.816541] (-) TimerEvent: {}
+[4.916921] (-) TimerEvent: {}
+[4.923352] (lab1_pkg) StderrLine: {'line': b'make[2]: *** [CMakeFiles/relay.dir/build.make:63: CMakeFiles/relay.dir/src/relay.cpp.o] Error 1\n'}
+[4.923902] (lab1_pkg) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/relay.dir/all] Error 2\n'}
+[4.924412] (lab1_pkg) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[4.927942] (lab1_pkg) CommandEnded: {'returncode': 2}
+[4.999782] (lab1_pkg) JobEnded: {'identifier': 'lab1_pkg', 'rc': 2}
+[5.010837] (-) EventReactorShutdown: {}

@@ -1,0 +1,57 @@
+[0.029s] Invoking command in '/home/judson35/lab1_ws/build/lab1_pkg': CMAKE_PREFIX_PATH=/home/judson35/lab1_ws/install/lab1_pkg:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --build /home/judson35/lab1_ws/build/lab1_pkg -- -j8 -l8
+[0.099s] [35m[1mScanning dependencies of target relay[0m
+[0.136s] [ 50%] Built target talker
+[0.147s] [ 75%] [32mBuilding CXX object CMakeFiles/relay.dir/src/relay.cpp.o[0m
+[2.396s] [01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/relay.cpp:30:24:[m[K [01;31m[Kerror: [m[K‘[01m[Ktutorial_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+[2.396s]    30 |   rclcpp::Subscription<[01;31m[Ktutorial_interfaces[m[K::msg::Num>::SharedPtr subscription_;
+[2.396s]       |                        [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.397s]       |                        [32m[Krcl_interfaces[m[K
+[2.397s] [01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/relay.cpp:30:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.397s]    30 | :Subscription<tutorial_interfaces::msg::Num[01;31m[K>[m[K::SharedPtr subscription_;
+[2.397s]       |                                            [01;31m[K^[m[K
+[2.397s] 
+[2.397s] [01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/relay.cpp:30:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[2.398s] [01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/relay.cpp:30:56:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.398s]    30 | bscription<tutorial_interfaces::msg::Num>::[01;31m[KSharedPtr[m[K subscription_;
+[2.398s]       |                                            [01;31m[K^~~~~~~~~[m[K
+[2.398s]       |                                                     [32m[K;[m[K
+[2.400s] [01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/relay.cpp:30:66:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+[2.400s]    30 | tion<tutorial_interfaces::msg::Num>::SharedPtr [01;31m[Ksubscription_[m[K;
+[2.401s]       |                                                [01;31m[K^~~~~~~~~~~~~[m[K
+[2.401s]       |                                                [32m[Krcl_subscription_t[m[K
+[2.415s] [01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/relay.cpp:[m[K In constructor ‘[01m[KRelay::Relay()[m[K’:
+[2.415s] [01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/relay.cpp:14:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+[2.415s]    14 |     [01;31m[Ksubscription_[m[K = this->create_subscription<ackermann_msgs::msg::AckermannDriveStamped>(
+[2.415s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[2.416s]       |     [32m[Krcl_subscription_t[m[K
+[2.448s] [01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/relay.cpp:[m[K In member function ‘[01m[Kvoid Relay::topic_callback(ackermann_msgs::msg::AckermannDriveStamped_<std::allocator<void> >::SharedPtr) const[m[K’:
+[2.449s] [01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/relay.cpp:24:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<ackermann_msgs::msg::AckermannDriveStamped_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kdrive[m[K’
+[2.449s]    24 |     relay_message.drive.speed = message.[01;31m[Kdrive[m[K->speed * 3;
+[2.449s]       |                                         [01;31m[K^~~~~[m[K
+[2.449s] [01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/relay.cpp:25:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<ackermann_msgs::msg::AckermannDriveStamped_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kdrive[m[K’
+[2.450s]    25 | lay_message.drive.steering_angle = message.[01;31m[Kdrive[m[K->steering_angle * 3;
+[2.450s]       |                                            [01;31m[K^~~~~[m[K
+[2.450s] 
+[2.461s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[2.461s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[2.461s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[2.461s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[2.462s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[2.462s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[2.462s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[2.462s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.463s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[2.463s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.463s]                  from [01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/relay.cpp:5[m[K:
+[2.463s] [01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/relay.cpp:28:109:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kackermann_msgs::msg::AckermannDriveStamped_<std::allocator<void> >::_drive_type[m[K’ {aka ‘[01m[Kackermann_msgs::msg::AckermannDrive_<std::allocator<void> >[m[K’}
+[2.463s]    28 | t Steering Angle: %d}", relay_message.drive[01;31m[K->[m[Kspeed, relay_message.drive->steering_angle);
+[2.464s]       |                                            [01;31m[K^~[m[K
+[2.464s] 
+[2.464s] [01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/relay.cpp:28:137:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kackermann_msgs::msg::AckermannDriveStamped_<std::allocator<void> >::_drive_type[m[K’ {aka ‘[01m[Kackermann_msgs::msg::AckermannDrive_<std::allocator<void> >[m[K’}
+[2.464s]    28 | y_message.drive->speed, relay_message.drive[01;31m[K->[m[Ksteering_angle);
+[2.465s]       |                                            [01;31m[K^~[m[K
+[2.465s] 
+[4.978s] make[2]: *** [CMakeFiles/relay.dir/build.make:63: CMakeFiles/relay.dir/src/relay.cpp.o] Error 1
+[4.978s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/relay.dir/all] Error 2
+[4.978s] make: *** [Makefile:141: all] Error 2
+[4.981s] Invoked command in '/home/judson35/lab1_ws/build/lab1_pkg' returned '2': CMAKE_PREFIX_PATH=/home/judson35/lab1_ws/install/lab1_pkg:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --build /home/judson35/lab1_ws/build/lab1_pkg -- -j8 -l8

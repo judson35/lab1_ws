@@ -1,0 +1,15 @@
+[0.033s] Invoking command in '/home/judson35/lab1_ws/build/lab1_pkg': CMAKE_PREFIX_PATH=/home/judson35/lab1_ws/install/lab1_pkg:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --build /home/judson35/lab1_ws/build/lab1_pkg -- -j8 -l8
+[0.112s] [35m[1mScanning dependencies of target talker[0m
+[0.183s] [ 50%] Built target relay
+[0.202s] [ 75%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[2.609s] [01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:[m[K In constructor ‘[01m[KTalker::Talker()[m[K’:
+[2.609s] [01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:41:62:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kvoid[m[K’
+[2.609s]    41 |                                 "drive_relay", 10, std::bind([01;31m[Kvoid[m[K, this, std::placeholders::_1));
+[2.609s]       |                                                              [01;31m[K^~~~[m[K
+[2.609s] [01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:44:20:[m[K [01;31m[Kerror: [m[Kexpected type-specifier before ‘[01m[K)[m[K’ token
+[2.609s]    44 |             catch ([01;31m[K)[m[K {
+[2.609s]       |                    [01;31m[K^[m[K
+[4.193s] make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/talker.cpp.o] Error 1
+[4.193s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/talker.dir/all] Error 2
+[4.194s] make: *** [Makefile:141: all] Error 2
+[4.199s] Invoked command in '/home/judson35/lab1_ws/build/lab1_pkg' returned '2': CMAKE_PREFIX_PATH=/home/judson35/lab1_ws/install/lab1_pkg:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --build /home/judson35/lab1_ws/build/lab1_pkg -- -j8 -l8

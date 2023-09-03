@@ -1,0 +1,76 @@
+[01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:[m[K In constructor ‘[01m[KTalker::Talker()[m[K’:
+[01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:22:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass rclcpp::Parameter[m[K’ has no member named ‘[01m[Kas_float32[m[K’
+   22 |         speed_ = this->get_parameter("v").[01;31m[Kas_float32[m[K();
+      |                                           [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:23:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass rclcpp::Parameter[m[K’ has no member named ‘[01m[Kas_float32[m[K’
+   23 |         steering_angle_ = this->get_parameter("d").[01;31m[Kas_float32[m[K();
+      |                                                    [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:27:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcallback_handle_[m[K’ was not declared in this scope
+   27 |         [01;31m[Kcallback_handle_[m[K = this->add_on_set_parameters_callback(std::bind(&Talker::parameterCallback, this, _1));
+      |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:27:84:[m[K [01;31m[Kerror: [m[K‘[01m[KparameterCallback[m[K’ is not a member of ‘[01m[KTalker[m[K’
+   27 |  callback_handle_ = this->add_on_set_parameters_callback(std::bind(&Talker::[01;31m[KparameterCallback[m[K, this, _1));
+      |                                                                             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:27:109:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::placeholders::_1[m[K’?
+   27 | >add_on_set_parameters_callback(std::bind(&Talker::parameterCallback, this, [01;31m[K_1[m[K));
+      |                                                                             [01;31m[K^~[m[K
+      |                                                                             [32m[Kstd::placeholders::_1[m[K
+In file included from [01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:2[m[K:
+[01m[K/usr/include/c++/9/functional:211:34:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::placeholders::_1[m[K’ declared here
+  211 |     extern const _Placeholder<1> [01;36m[K_1[m[K;
+      |                                  [01;36m[K^~[m[K
+[01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:[m[K In member function ‘[01m[Krcl_interfaces::msg::SetParametersResult Talker::parametersCallback(const std::vector<rclcpp::Parameter>&)[m[K’:
+[01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:32:50:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K=[m[K’ token
+   32 |         rcl_interfaces::msg::SetParametersResult [01;31m[K=[m[K result;
+      |                                                  [01;31m[K^[m[K
+[01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:34:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kresult[m[K’ was not declared in this scope
+   34 |         [01;31m[Kresult[m[K.successful = true;
+      |         [01;31m[K^~~~~~[m[K
+[01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:36:37:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Krclcpp::Parameter[m[K’ to ‘[01m[Kfloat[m[K’ in assignment
+   36 |         speed_ = [01;31m[Kthis->get_parameter("v")[m[K;
+      |                  [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+      |                                     [01;31m[K|[m[K
+      |                                     [01;31m[Krclcpp::Parameter[m[K
+[01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:37:46:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Krclcpp::Parameter[m[K’ to ‘[01m[Kfloat[m[K’ in assignment
+   37 |         steering_angle_ = [01;31m[Kthis->get_parameter("d")[m[K;
+      |                           [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+      |                                              [01;31m[K|[m[K
+      |                                              [01;31m[Krclcpp::Parameter[m[K
+[01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:40:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct ackermann_msgs::msg::AckermannDriveStamped_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kspeed[m[K’
+   40 |         message.[01;31m[Kspeed[m[K = speed_;
+      |                 [01;31m[K^~~~~[m[K
+[01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:41:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct ackermann_msgs::msg::AckermannDriveStamped_<std::allocator<void> >[m[K’ has no member named ‘[01m[Ksteering_angle_[m[K’
+   41 |         message.[01;31m[Ksteering_angle_[m[K = steergin_angle_;
+      |                 [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:41:35:[m[K [01;31m[Kerror: [m[K‘[01m[Ksteergin_angle_[m[K’ was not declared in this scope; did you mean ‘[01m[Ksteering_angle_[m[K’?
+   41 |         message.steering_angle_ = [01;31m[Ksteergin_angle_[m[K;
+      |                                   [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                                   [32m[Ksteering_angle_[m[K
+[01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:45:5:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   45 |     [01;35m[K}[m[K
+      |     [01;35m[K^[m[K
+[01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:30:103:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kparameters[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   30 | sg::SetParametersResult parametersCallback([01;35m[Kconst std::vector<rclcpp::Parameter> &parameters[m[K) {
+      |                                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+
+[01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:56:35:[m[K [01;31m[Kerror: [m[K‘[01m[KMinimalParam[m[K’ was not declared in this scope
+   56 |     rclcpp::spin(std::make_shared<[01;31m[KMinimalParam[m[K>());
+      |                                   [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:56:49:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+   56 |     rclcpp::spin(std::make_shared<MinimalParam>([01;31m[K)[m[K);
+      |                                                 [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:5[m[K:
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  714 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:56:49:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   56 |     rclcpp::spin(std::make_shared<MinimalParam>([01;31m[K)[m[K);
+      |                                                 [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/talker.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/talker.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

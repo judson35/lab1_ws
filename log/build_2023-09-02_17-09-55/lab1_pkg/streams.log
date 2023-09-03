@@ -1,0 +1,13 @@
+[0.032s] Invoking command in '/home/judson35/lab1_ws/build/lab1_pkg': CMAKE_PREFIX_PATH=/home/judson35/lab1_ws/install/lab1_pkg:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --build /home/judson35/lab1_ws/build/lab1_pkg -- -j8 -l8
+[0.108s] [35m[1mScanning dependencies of target talker[0m
+[0.176s] [ 50%] Built target relay
+[0.197s] [ 75%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[2.574s] [01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:[m[K In member function ‘[01m[Krcl_interfaces::msg::SetParametersResult Talker::parametersCallback(const std::vector<rclcpp::Parameter>&)[m[K’:
+[2.574s] [01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:52:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SetParametersResult = struct rcl_interfaces::msg::SetParametersResult_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct rcl_interfaces::msg::SetParametersResult_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksucessful[m[K’; did you mean ‘[01m[Ksuccessful[m[K’?
+[2.574s]    52 |                     result.[01;31m[Ksucessful[m[K = true;
+[2.575s]       |                            [01;31m[K^~~~~~~~~[m[K
+[2.575s]       |                            [32m[Ksuccessful[m[K
+[4.080s] make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/talker.cpp.o] Error 1
+[4.080s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/talker.dir/all] Error 2
+[4.081s] make: *** [Makefile:141: all] Error 2
+[4.084s] Invoked command in '/home/judson35/lab1_ws/build/lab1_pkg' returned '2': CMAKE_PREFIX_PATH=/home/judson35/lab1_ws/install/lab1_pkg:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --build /home/judson35/lab1_ws/build/lab1_pkg -- -j8 -l8

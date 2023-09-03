@@ -1,0 +1,29 @@
+[01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:[m[K In constructor ‘[01m[KTalker::Talker()[m[K’:
+[01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:21:5:[m[K [01;31m[Kerror: [m[Kuninitialized const member in ‘[01m[Kconst double[m[K’ [[01;31m[K-fpermissive[m[K]
+   21 |     [01;31m[KTalker[m[K() : Node("talker_node") {
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:72:18:[m[K [01;36m[Knote: [m[K‘[01m[Kconst double Talker::speed_[m[K’ should be initialized
+   72 |     const double [01;36m[Kspeed_[m[K;
+      |                  [01;36m[K^~~~~~[m[K
+[01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:21:5:[m[K [01;31m[Kerror: [m[Kuninitialized const member in ‘[01m[Kconst double[m[K’ [[01;31m[K-fpermissive[m[K]
+   21 |     [01;31m[KTalker[m[K() : Node("talker_node") {
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:73:18:[m[K [01;36m[Knote: [m[K‘[01m[Kconst double Talker::steering_angle_[m[K’ should be initialized
+   73 |     const double [01;36m[Ksteering_angle_[m[K;
+      |                  [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:29:16:[m[K [01;31m[Kerror: [m[Kassignment of read-only member ‘[01m[KTalker::speed_[m[K’
+   29 |         [01;31m[Kspeed_ = this->get_parameter("v").as_double()[m[K;
+      |         [01;31m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:30:25:[m[K [01;31m[Kerror: [m[Kassignment of read-only member ‘[01m[KTalker::steering_angle_[m[K’
+   30 |         [01;31m[Ksteering_angle_ = this->get_parameter("d").as_double()[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:[m[K In member function ‘[01m[Krcl_interfaces::msg::SetParametersResult Talker::parametersCallback(const std::vector<rclcpp::Parameter>&)[m[K’:
+[01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:48:28:[m[K [01;31m[Kerror: [m[Kassignment of read-only member ‘[01m[KTalker::speed_[m[K’
+   48 |                     [01;31m[Kspeed_ = param.as_double()[m[K;
+      |                     [01;31m[K~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:53:37:[m[K [01;31m[Kerror: [m[Kassignment of read-only member ‘[01m[KTalker::steering_angle_[m[K’
+   53 |                     [01;31m[Ksteering_angle_ = param.as_double()[m[K;
+      |                     [01;31m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/talker.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/talker.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

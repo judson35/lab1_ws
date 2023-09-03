@@ -1,0 +1,14 @@
+[35m[1mScanning dependencies of target talker[0m
+[ 50%] Built target relay
+[ 75%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:[m[K In constructor ‘[01m[KTalker::Talker()[m[K’:
+[01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:38:60:[m[K [01;31m[Kerror: [m[K‘[01m[KMinimalParam[m[K’ has not been declared
+   38 |         timer_ = this->create_wall_timer(100ms, std::bind(&[01;31m[KMinimalParam[m[K::timer_callback, this));
+      |                                                            [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:[m[K In member function ‘[01m[Krcl_interfaces::msg::SetParametersResult Talker::parametersCallback(const std::vector<rclcpp::Parameter>&)[m[K’:
+[01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:62:31:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+   62 |         void timer_callback() [01;31m[K{[m[K
+      |                               [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/talker.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/talker.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

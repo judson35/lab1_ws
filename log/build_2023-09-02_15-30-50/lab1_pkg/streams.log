@@ -1,0 +1,26 @@
+[0.030s] Invoking command in '/home/judson35/lab1_ws/build/lab1_pkg': CMAKE_PREFIX_PATH=/home/judson35/lab1_ws/install/lab1_pkg:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --build /home/judson35/lab1_ws/build/lab1_pkg -- -j8 -l8
+[0.116s] [35m[1mScanning dependencies of target talker[0m
+[0.217s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[5.566s] [100%] [32m[1mLinking CXX executable talker[0m
+[5.842s] [100%] Built target talker
+[5.862s] Invoked command in '/home/judson35/lab1_ws/build/lab1_pkg' returned '0': CMAKE_PREFIX_PATH=/home/judson35/lab1_ws/install/lab1_pkg:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --build /home/judson35/lab1_ws/build/lab1_pkg -- -j8 -l8
+[5.949s] Invoking command in '/home/judson35/lab1_ws/build/lab1_pkg': CMAKE_PREFIX_PATH=/home/judson35/lab1_ws/install/lab1_pkg:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --install /home/judson35/lab1_ws/build/lab1_pkg
+[5.978s] -- Install configuration: ""
+[5.979s] -- Installing: /home/judson35/lab1_ws/install/lab1_pkg/lib/lab1_pkg/talker
+[5.982s] -- Set runtime path of "/home/judson35/lab1_ws/install/lab1_pkg/lib/lab1_pkg/talker" to ""
+[5.983s] -- Up-to-date: /home/judson35/lab1_ws/install/lab1_pkg/share/ament_index/resource_index/package_run_dependencies/lab1_pkg
+[5.983s] -- Up-to-date: /home/judson35/lab1_ws/install/lab1_pkg/share/ament_index/resource_index/parent_prefix_path/lab1_pkg
+[5.984s] -- Up-to-date: /home/judson35/lab1_ws/install/lab1_pkg/share/lab1_pkg/environment/ament_prefix_path.sh
+[5.984s] -- Up-to-date: /home/judson35/lab1_ws/install/lab1_pkg/share/lab1_pkg/environment/ament_prefix_path.dsv
+[5.984s] -- Up-to-date: /home/judson35/lab1_ws/install/lab1_pkg/share/lab1_pkg/environment/path.sh
+[5.985s] -- Up-to-date: /home/judson35/lab1_ws/install/lab1_pkg/share/lab1_pkg/environment/path.dsv
+[5.985s] -- Up-to-date: /home/judson35/lab1_ws/install/lab1_pkg/share/lab1_pkg/local_setup.bash
+[5.986s] -- Up-to-date: /home/judson35/lab1_ws/install/lab1_pkg/share/lab1_pkg/local_setup.sh
+[5.987s] -- Up-to-date: /home/judson35/lab1_ws/install/lab1_pkg/share/lab1_pkg/local_setup.zsh
+[5.987s] -- Up-to-date: /home/judson35/lab1_ws/install/lab1_pkg/share/lab1_pkg/local_setup.dsv
+[5.988s] -- Installing: /home/judson35/lab1_ws/install/lab1_pkg/share/lab1_pkg/package.dsv
+[5.988s] -- Up-to-date: /home/judson35/lab1_ws/install/lab1_pkg/share/ament_index/resource_index/packages/lab1_pkg
+[5.988s] -- Up-to-date: /home/judson35/lab1_ws/install/lab1_pkg/share/lab1_pkg/cmake/lab1_pkgConfig.cmake
+[5.989s] -- Up-to-date: /home/judson35/lab1_ws/install/lab1_pkg/share/lab1_pkg/cmake/lab1_pkgConfig-version.cmake
+[5.990s] -- Up-to-date: /home/judson35/lab1_ws/install/lab1_pkg/share/lab1_pkg/package.xml
+[5.995s] Invoked command in '/home/judson35/lab1_ws/build/lab1_pkg' returned '0': CMAKE_PREFIX_PATH=/home/judson35/lab1_ws/install/lab1_pkg:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --install /home/judson35/lab1_ws/build/lab1_pkg

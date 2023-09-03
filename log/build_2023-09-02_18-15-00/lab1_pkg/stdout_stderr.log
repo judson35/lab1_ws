@@ -1,0 +1,31 @@
+[35m[1mScanning dependencies of target talker[0m
+[ 50%] Built target relay
+[ 75%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+In file included from [01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:2[m[K:
+/usr/include/c++/9/functional: In instantiation of ‘[01m[Kstruct std::_Bind_check_arity<rcl_interfaces::msg::SetParametersResult_<std::allocator<void> > (Talker::*)(const std::vector<rclcpp::Parameter>&), Talker*>[m[K’:
+[01m[K/usr/include/c++/9/functional:787:12:[m[K   required from ‘[01m[Kstruct std::_Bind_helper<false, rcl_interfaces::msg::SetParametersResult_<std::allocator<void> > (Talker::*)(const std::vector<rclcpp::Parameter>&), Talker*>[m[K’
+[01m[K/usr/include/c++/9/functional:808:5:[m[K   required by substitution of ‘[01m[Ktemplate<class _Func, class ... _BoundArgs> typename std::_Bind_helper<std::__is_socketlike<_Func>::value, _Func, _BoundArgs ...>::type std::bind(_Func&&, _BoundArgs&& ...) [with _Func = rcl_interfaces::msg::SetParametersResult_<std::allocator<void> > (Talker::*)(const std::vector<rclcpp::Parameter>&); _BoundArgs = {Talker*}][m[K’
+[01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:36:108:[m[K   required from here
+[01m[K/usr/include/c++/9/functional:775:7:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: Wrong number of arguments for pointer-to-member
+  774 |       static_assert(_Varargs::[01;31m[Kvalue[m[K
+      |                               [01;31m[K~~~~~[m[K
+  775 | [01;31m[K      ? sizeof...(_BoundArgs) >= _Arity::value + 1[m[K
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  776 | [01;31m[K      : sizeof...(_BoundArgs) == _Arity::value + 1[m[K,
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:[m[K In constructor ‘[01m[KTalker::Talker()[m[K’:
+[01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:36:74:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::_Bind_helper<false, rcl_interfaces::msg::SetParametersResult_<std::allocator<void> > (Talker::*)(const std::vector<rclcpp::Parameter>&), Talker*>::type[m[K’ {aka ‘[01m[Kstd::_Bind<rcl_interfaces::msg::SetParametersResult_<std::allocator<void> > (Talker::*(Talker*))(const std::vector<rclcpp::Parameter>&)>[m[K’} to ‘[01m[Krclcpp::Node::OnParametersSetCallbackType[m[K’ {aka ‘[01m[Kstd::function<rcl_interfaces::msg::SetParametersResult_<std::allocator<void> >(const std::vector<rclcpp::Parameter>&)>[m[K’}
+   36 |         callback_handle_ = this->add_on_set_parameters_callback([01;31m[Kstd::bind(&Talker::parametersCallback, this)[m[K);
+      |                                                                 [01;31m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                          [01;31m[K|[m[K
+      |                                                                          [01;31m[Kstd::_Bind_helper<false, rcl_interfaces::msg::SetParametersResult_<std::allocator<void> > (Talker::*)(const std::vector<rclcpp::Parameter>&), Talker*>::type {aka std::_Bind<rcl_interfaces::msg::SetParametersResult_<std::allocator<void> > (Talker::*(Talker*))(const std::vector<rclcpp::Parameter>&)>}[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:7[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:819:62:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Krclcpp::node_interfaces::OnSetParametersCallbackHandle::SharedPtr rclcpp::Node::add_on_set_parameters_callback(rclcpp::Node::OnParametersSetCallbackType)[m[K’
+  819 |   add_on_set_parameters_callback([01;36m[KOnParametersSetCallbackType callback[m[K);
+      |                                  [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/talker.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/talker.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

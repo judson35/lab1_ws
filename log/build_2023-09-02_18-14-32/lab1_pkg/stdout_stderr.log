@@ -1,0 +1,11 @@
+[35m[1mScanning dependencies of target talker[0m
+[ 50%] Built target relay
+[ 75%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:[m[K In constructor ‘[01m[KTalker::Talker()[m[K’:
+[01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:36:129:[m[K [01;31m[Kerror: [m[K‘[01m[K_0[m[K’ is not a member of ‘[01m[Kstd::placeholders[m[K’; did you mean ‘[01m[K_20[m[K’?
+   36 |         callback_handle_ = this->add_on_set_parameters_callback(std::bind(&Talker::parametersCallback, this, std::placeholders::[01;31m[K_0[m[K));
+      |                                                                                                                                 [01;31m[K^~[m[K
+      |                                                                                                                                 [32m[K_20[m[K
+make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/talker.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/talker.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

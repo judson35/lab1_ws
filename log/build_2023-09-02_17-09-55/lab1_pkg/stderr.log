@@ -1,0 +1,8 @@
+[01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:[m[K In member function ‘[01m[Krcl_interfaces::msg::SetParametersResult Talker::parametersCallback(const std::vector<rclcpp::Parameter>&)[m[K’:
+[01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:52:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SetParametersResult = struct rcl_interfaces::msg::SetParametersResult_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct rcl_interfaces::msg::SetParametersResult_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksucessful[m[K’; did you mean ‘[01m[Ksuccessful[m[K’?
+   52 |                     result.[01;31m[Ksucessful[m[K = true;
+      |                            [01;31m[K^~~~~~~~~[m[K
+      |                            [32m[Ksuccessful[m[K
+make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/talker.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/talker.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

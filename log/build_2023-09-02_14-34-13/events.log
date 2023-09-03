@@ -1,0 +1,109 @@
+[0.000000] (-) TimerEvent: {}
+[0.000214] (lab1_pkg) JobQueued: {'identifier': 'lab1_pkg', 'dependencies': OrderedDict()}
+[0.000275] (lab1_pkg) JobStarted: {'identifier': 'lab1_pkg'}
+[0.020523] (lab1_pkg) JobProgress: {'identifier': 'lab1_pkg', 'progress': 'cmake'}
+[0.022010] (lab1_pkg) JobProgress: {'identifier': 'lab1_pkg', 'progress': 'build'}
+[0.023626] (lab1_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/judson35/lab1_ws/build/lab1_pkg', '--', '-j8', '-l8'], 'cwd': '/home/judson35/lab1_ws/build/lab1_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'judson35'), ('SSH_AGENT_PID', '1482'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/judson35'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/judson35/lab1_ws/src'), ('TERM_PROGRAM_VERSION', '1.81.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1130'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '148382'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'judson35'), ('JOURNAL_STREAM', '8:40649'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'judson35'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/judson35/catkin_ws/src/quad-sdk/quad_simulator/spirit_description:/home/judson35/catkin_ws/src/quad-sdk/quad_simulator/other/sensor_description:/home/judson35/catkin_ws/src/quad-sdk/quad_simulator/other/objects_description:/home/judson35/catkin_ws/src/quad-sdk/quad_simulator/gazebo_scripts/worlds:/home/judson35/catkin_ws/src/quad-sdk/quad_simulator/spirit_description:/home/judson35/catkin_ws/src/quad-sdk/quad_simulator/other/sensor_description:/home/judson35/catkin_ws/src/quad-sdk/quad_simulator/other/objects_description:/home/judson35/catkin_ws/src/quad-sdk/quad_simulator/gazebo_scripts/worlds:/home/judson35/catkin_ws/src/quad-sdk/quad_simulator/spirit_description:/home/judson35/catkin_ws/src/quad-sdk/quad_simulator/other/sensor_description:/home/judson35/catkin_ws/src/quad-sdk/quad_simulator/other/objects_description:/home/judson35/catkin_ws/src/quad-sdk/quad_simulator/gazebo_scripts/worlds:/home/judson35/catkin_ws/src/quad-sdk/quad_simulator/spirit_description:/home/judson35/catkin_ws/src/quad-sdk/quad_simulator/other/sensor_description:/home/judson35/catkin_ws/src/quad-sdk/quad_simulator/other/objects_description:/home/judson35/catkin_ws/src/quad-sdk/quad_simulator/gazebo_scripts/worlds:/home/judson35/catkin_ws/src/quad-sdk/quad_simulator/spirit_description:/home/judson35/catkin_ws/src/quad-sdk/quad_simulator/other/sensor_description:/home/judson35/catkin_ws/src/quad-sdk/quad_simulator/other/objects_description:/home/judson35/catkin_ws/src/quad-sdk/quad_simulator/gazebo_scripts/worlds:/home/judson35/catkin_ws/src/quad-sdk/quad_simulator/spirit_description:/home/judson35/catkin_ws/src/quad-sdk/quad_simulator/other/sensor_description:/home/judson35/catkin_ws/src/quad-sdk/quad_simulator/other/objects_description:/home/judson35/catkin_ws/src/quad-sdk/quad_simulator/gazebo_scripts/worlds:/home/judson35/catkin_ws/src/quad-sdk/quad_simulator/spirit_description:/home/judson35/catkin_ws/src/quad-sdk/quad_simulator/other/sensor_description:/home/judson35/catkin_ws/src/quad-sdk/quad_simulator/other/objects_description:/home/judson35/catkin_ws/src/quad-sdk/quad_simulator/gazebo_scripts/worlds'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/noetic/bin:/home/judson35/.local/bin:/home/judson35/bin:/opt/ros/foxy/bin:/home/judson35/.local/bin:/home/judson35/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/judson35-XPS-13-7390:@/tmp/.ICE-unix/1521,unix/judson35-XPS-13-7390:/tmp/.ICE-unix/1521'), ('INVOCATION_ID', '60551f681a0142c389125a136c6db753'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-1ba2b0d507.sock'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '35'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/judson35/lab1_ws/build/lab1_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/noetic/lib/python3/dist-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy:/opt/ros/noetic')]), 'shell': False}
+[0.094504] (lab1_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target talker\x1b[0m\n'}
+[0.098327] (-) TimerEvent: {}
+[0.135615] (lab1_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o\x1b[0m\n'}
+[0.198476] (-) TimerEvent: {}
+[0.298856] (-) TimerEvent: {}
+[0.399284] (-) TimerEvent: {}
+[0.499664] (-) TimerEvent: {}
+[0.600037] (-) TimerEvent: {}
+[0.700401] (-) TimerEvent: {}
+[0.800787] (-) TimerEvent: {}
+[0.901169] (-) TimerEvent: {}
+[1.001553] (-) TimerEvent: {}
+[1.101941] (-) TimerEvent: {}
+[1.202312] (-) TimerEvent: {}
+[1.302687] (-) TimerEvent: {}
+[1.403057] (-) TimerEvent: {}
+[1.503439] (-) TimerEvent: {}
+[1.603828] (-) TimerEvent: {}
+[1.704202] (-) TimerEvent: {}
+[1.804592] (-) TimerEvent: {}
+[1.904979] (-) TimerEvent: {}
+[2.005357] (-) TimerEvent: {}
+[2.105728] (-) TimerEvent: {}
+[2.206119] (-) TimerEvent: {}
+[2.306509] (-) TimerEvent: {}
+[2.345666] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KTalker::Talker()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.346190] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:22:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass rclcpp::Parameter\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kas_float32\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.346451] (lab1_pkg) StderrLine: {'line': b'   22 |         speed_ = this->get_parameter("v").\x1b[01;31m\x1b[Kas_float32\x1b[m\x1b[K();\n'}
+[2.346658] (lab1_pkg) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.346804] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:23:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass rclcpp::Parameter\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kas_float32\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.346939] (lab1_pkg) StderrLine: {'line': b'   23 |         steering_angle_ = this->get_parameter("d").\x1b[01;31m\x1b[Kas_float32\x1b[m\x1b[K();\n'}
+[2.347063] (lab1_pkg) StderrLine: {'line': b'      |                                                    \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.354713] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:27:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcallback_handle_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.354988] (lab1_pkg) StderrLine: {'line': b'   27 |         \x1b[01;31m\x1b[Kcallback_handle_\x1b[m\x1b[K = this->add_on_set_parameters_callback(std::bind(&Talker::parameterCallback, this, _1));\n'}
+[2.355120] (lab1_pkg) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.355241] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:27:84:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KparameterCallback\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[KTalker\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.355636] (lab1_pkg) StderrLine: {'line': b'   27 |  callback_handle_ = this->add_on_set_parameters_callback(std::bind(&Talker::\x1b[01;31m\x1b[KparameterCallback\x1b[m\x1b[K, this, _1));\n'}
+[2.355783] (lab1_pkg) StderrLine: {'line': b'      |                                                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.355905] (lab1_pkg) StderrLine: {'line': b'\n'}
+[2.356020] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:27:109:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_1\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstd::placeholders::_1\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.356149] (lab1_pkg) StderrLine: {'line': b'   27 | >add_on_set_parameters_callback(std::bind(&Talker::parameterCallback, this, \x1b[01;31m\x1b[K_1\x1b[m\x1b[K));\n'}
+[2.356272] (lab1_pkg) StderrLine: {'line': b'      |                                                                             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.356392] (lab1_pkg) StderrLine: {'line': b'      |                                                                             \x1b[32m\x1b[Kstd::placeholders::_1\x1b[m\x1b[K\n'}
+[2.356513] (lab1_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:2\x1b[m\x1b[K:\n'}
+[2.356812] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/functional:211:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::placeholders::_1\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[2.356948] (lab1_pkg) StderrLine: {'line': b'  211 |     extern const _Placeholder<1> \x1b[01;36m\x1b[K_1\x1b[m\x1b[K;\n'}
+[2.357071] (lab1_pkg) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.357187] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::msg::SetParametersResult Talker::parametersCallback(const std::vector<rclcpp::Parameter>&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.357304] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:32:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K=\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.357417] (lab1_pkg) StderrLine: {'line': b'   32 |         rcl_interfaces::msg::SetParametersResult \x1b[01;31m\x1b[K=\x1b[m\x1b[K result;\n'}
+[2.357563] (lab1_pkg) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.358641] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:34:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kresult\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.358835] (lab1_pkg) StderrLine: {'line': b'   34 |         \x1b[01;31m\x1b[Kresult\x1b[m\x1b[K.successful = true;\n'}
+[2.358970] (lab1_pkg) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.359345] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:36:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Parameter\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 in assignment\n'}
+[2.359530] (lab1_pkg) StderrLine: {'line': b'   36 |         speed_ = \x1b[01;31m\x1b[Kthis->get_parameter("v")\x1b[m\x1b[K;\n'}
+[2.359672] (lab1_pkg) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[2.359792] (lab1_pkg) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[2.359908] (lab1_pkg) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[Krclcpp::Parameter\x1b[m\x1b[K\n'}
+[2.360018] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:37:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Parameter\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 in assignment\n'}
+[2.360131] (lab1_pkg) StderrLine: {'line': b'   37 |         steering_angle_ = \x1b[01;31m\x1b[Kthis->get_parameter("d")\x1b[m\x1b[K;\n'}
+[2.360262] (lab1_pkg) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[2.360383] (lab1_pkg) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[2.360495] (lab1_pkg) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[Krclcpp::Parameter\x1b[m\x1b[K\n'}
+[2.360606] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:40:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct ackermann_msgs::msg::AckermannDriveStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kspeed\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.360722] (lab1_pkg) StderrLine: {'line': b'   40 |         message.\x1b[01;31m\x1b[Kspeed\x1b[m\x1b[K = speed_;\n'}
+[2.360832] (lab1_pkg) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.360953] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:41:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct ackermann_msgs::msg::AckermannDriveStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Ksteering_angle_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.361070] (lab1_pkg) StderrLine: {'line': b'   41 |         message.\x1b[01;31m\x1b[Ksteering_angle_\x1b[m\x1b[K = steergin_angle_;\n'}
+[2.361303] (lab1_pkg) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.361521] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:41:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksteergin_angle_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ksteering_angle_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.361669] (lab1_pkg) StderrLine: {'line': b'   41 |         message.steering_angle_ = \x1b[01;31m\x1b[Ksteergin_angle_\x1b[m\x1b[K;\n'}
+[2.361789] (lab1_pkg) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.361904] (lab1_pkg) StderrLine: {'line': b'      |                                   \x1b[32m\x1b[Ksteering_angle_\x1b[m\x1b[K\n'}
+[2.373622] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:45:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[2.373890] (lab1_pkg) StderrLine: {'line': b'   45 |     \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[2.374021] (lab1_pkg) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.374139] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:30:103:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kparameters\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[2.374257] (lab1_pkg) StderrLine: {'line': b'   30 | sg::SetParametersResult parametersCallback(\x1b[01;35m\x1b[Kconst std::vector<rclcpp::Parameter> &parameters\x1b[m\x1b[K) {\n'}
+[2.374371] (lab1_pkg) StderrLine: {'line': b'      |                                            \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.374483] (lab1_pkg) StderrLine: {'line': b'\n'}
+[2.406652] (-) TimerEvent: {}
+[2.507044] (-) TimerEvent: {}
+[2.607413] (-) TimerEvent: {}
+[2.707785] (-) TimerEvent: {}
+[2.808154] (-) TimerEvent: {}
+[2.908527] (-) TimerEvent: {}
+[3.008893] (-) TimerEvent: {}
+[3.109263] (-) TimerEvent: {}
+[3.209617] (-) TimerEvent: {}
+[3.309984] (-) TimerEvent: {}
+[3.410370] (-) TimerEvent: {}
+[3.510759] (-) TimerEvent: {}
+[3.611153] (-) TimerEvent: {}
+[3.711557] (-) TimerEvent: {}
+[3.811929] (-) TimerEvent: {}
+[3.846331] (lab1_pkg) StderrLine: {'line': b'make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/talker.cpp.o] Error 1\n'}
+[3.846875] (lab1_pkg) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/talker.dir/all] Error 2\n'}
+[3.847221] (lab1_pkg) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[3.850814] (lab1_pkg) CommandEnded: {'returncode': 2}
+[3.912134] (-) TimerEvent: {}
+[3.919346] (lab1_pkg) JobEnded: {'identifier': 'lab1_pkg', 'rc': 2}
+[3.930873] (-) EventReactorShutdown: {}

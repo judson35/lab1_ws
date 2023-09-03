@@ -1,0 +1,24 @@
+[0.033s] Invoking command in '/home/judson35/lab1_ws/build/lab1_pkg': CMAKE_PREFIX_PATH=/home/judson35/lab1_ws/install/lab1_pkg:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --build /home/judson35/lab1_ws/build/lab1_pkg -- -j8 -l8
+[0.100s] [35m[1mScanning dependencies of target talker[0m
+[0.152s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[2.381s] [01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:13:8:[m[K [01;31m[Kerror: [m[Kfound ‘[01m[K:[m[K’ in nested-name-specifier, expected ‘[01m[K::[m[K’
+[2.381s]    13 |     std[01;31m[K:[m[Kstring SPEED = "v";
+[2.381s]       |        [01;31m[K^[m[K
+[2.381s]       |        [32m[K::[m[K
+[2.381s] [01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:15:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[2.381s]    15 | }[01;35m[K;[m[K
+[2.381s]       |  [01;35m[K^[m[K
+[2.422s] [01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:[m[K In member function ‘[01m[Krcl_interfaces::msg::SetParametersResult Talker::parametersCallback(const std::vector<rclcpp::Parameter>&)[m[K’:
+[2.422s] [01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:40:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<rclcpp::Parameter>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[2.423s]    40 |         for (int i = 0; [01;35m[Ki < parameters.size()[m[K; i++) {
+[2.423s]       |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[2.423s] [01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:44:35:[m[K [01;31m[Kerror: [m[K‘[01m[KParams[m[K’ has not been declared
+[2.423s]    44 |             if (parameter_name == [01;31m[KParams[m[K::SPEED) {speed_ = value;}
+[2.423s]       |                                   [01;31m[K^~~~~~[m[K
+[2.423s] [01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/talker.cpp:45:40:[m[K [01;31m[Kerror: [m[K‘[01m[KParams[m[K’ has not been declared
+[2.424s]    45 |             else if (parameter_name == [01;31m[KParams[m[K::STEERING_ANGLE) {steering_angle_ = value;}
+[2.424s]       |                                        [01;31m[K^~~~~~[m[K
+[3.933s] make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/talker.cpp.o] Error 1
+[3.933s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/talker.dir/all] Error 2
+[3.933s] make: *** [Makefile:141: all] Error 2
+[3.937s] Invoked command in '/home/judson35/lab1_ws/build/lab1_pkg' returned '2': CMAKE_PREFIX_PATH=/home/judson35/lab1_ws/install/lab1_pkg:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --build /home/judson35/lab1_ws/build/lab1_pkg -- -j8 -l8
