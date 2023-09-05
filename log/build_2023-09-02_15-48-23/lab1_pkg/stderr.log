@@ -1,8 +1,0 @@
-[01m[K/home/judson35/lab1_ws/src/lab1_pkg/src/relay.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Ktutorial_interfaces/msg/num.hpp: No such file or directory
-    6 | #include [01;31m[K"tutorial_interfaces/msg/num.hpp"[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-make[2]: *** [CMakeFiles/relay.dir/build.make:63: CMakeFiles/relay.dir/src/relay.cpp.o] Error 1
-make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/relay.dir/all] Error 2
-make[1]: *** Waiting for unfinished jobs....
-make: *** [Makefile:141: all] Error 2
