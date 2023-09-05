@@ -31,13 +31,13 @@ public:
         speed_ = this->get_parameter("v").as_double();
         steering_angle_ = this->get_parameter("d").as_double();
 
-        publisher_ = this->create_publisher<ackermann_msgs::msg::AckermannDriveStamped>("drive", 10); //queue size of 10
+        publisher_ = this->create_publisher<ackermann_msgs::msg::AckermannDriveStamped>("drive", 1); //queue size of 10
 
         callback_handle_ = this->add_on_set_parameters_callback(std::bind(&Talker::parametersCallback, this, _1));
 
         this->publish_parameters();
 
-        // timer_ = this->create_wall_timer(100ms, std::bind(&Talker::timer_callback, this));
+        timer_ = this->create_wall_timer(100ms, std::bind(&Talker::timer_callback, this));
     }
 
     rcl_interfaces::msg::SetParametersResult parametersCallback(const std::vector<rclcpp::Parameter> &parameters) {
@@ -58,8 +58,6 @@ public:
                 }
             }
         }
-    
-        this->publish_parameters();
 
         return result;
     }
@@ -70,11 +68,12 @@ public:
         message.drive.steering_angle = steering_angle_;
         publisher_->publish(message);
 
-        RCLCPP_INFO(this->get_logger(), "\nPublished {Speed: %f" "\t Steering Angle: %f}", message.drive.speed, message.drive.steering_angle);
+        // RCLCPP_INFO(this->get_logger(), "\nPublished {Speed: %f" "\t Steering Angle: %f}", message.drive.speed, message.drive.steering_angle);
     }
 
     void timer_callback() { 
-        RCLCPP_INFO(this->get_logger(), "Published {Speed: %f" "\t Steering Angle: %f}", speed_, steering_angle_);
+        this->publish_parameters();
+        // RCLCPP_INFO(this->get_logger(), "Published {Speed: %f" "\t Steering Angle: %f}", speed_, steering_angle_);
     }
 
 private:

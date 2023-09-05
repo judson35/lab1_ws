@@ -15,7 +15,7 @@ public:
     subscription_ = this->create_subscription<ackermann_msgs::msg::AckermannDriveStamped>(
       "drive", 10, std::bind(&Relay::topic_callback, this, _1));
 
-    publisher_ = this->create_publisher<ackermann_msgs::msg::AckermannDriveStamped>("drive_relay", 10); //queue size of 10
+    publisher_ = this->create_publisher<ackermann_msgs::msg::AckermannDriveStamped>("drive_relay", 1); //queue size of 1
 
   }
 
@@ -26,7 +26,7 @@ private:
     relay_message.drive.steering_angle = message->drive.steering_angle * 3;
 
     publisher_->publish(relay_message);
-    RCLCPP_INFO(this->get_logger(), "\nPublished Relay {Speed: %f \t Steering Angle: %f}", relay_message.drive.speed, relay_message.drive.steering_angle);
+    // RCLCPP_INFO(this->get_logger(), "\nPublished Relay {Speed: %f \t Steering Angle: %f}", relay_message.drive.speed, relay_message.drive.steering_angle);
   }
   rclcpp::Subscription<ackermann_msgs::msg::AckermannDriveStamped>::SharedPtr subscription_;
   rclcpp::Publisher<ackermann_msgs::msg::AckermannDriveStamped>::SharedPtr publisher_;
