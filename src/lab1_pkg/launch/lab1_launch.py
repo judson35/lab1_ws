@@ -18,7 +18,7 @@ def generate_launch_description():
             output="screen",
             emulate_tty=True,
             parameters=[
-                {"v": 1.0, "d": 2.0}
+                {"v": 4.0, "d": 1.0}
             ]
         )
     ])

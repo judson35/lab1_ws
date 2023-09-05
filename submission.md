@@ -8,8 +8,8 @@ The first command sources your ros environment. This allows you to run all the r
 
 ### Q2: What does the ```queue_size``` argument control when creating a subscriber or a publisher? How does different ```queue_size``` affect how messages are handled?
 
-The queue size argument controls how many messages are stored into a buffer while nodes are reading the messages or publishing new ones. Increasing the queue size allows nodes to read messages from further back in time with the downside of taking up more memory to store those previous messages.
+The queue size argument controls how many messages are stored into a buffer while nodes are reading the messages or publishing new ones. Increasing the queue size allows nodes to read messages from further back in time with the downside of taking up more memory to store those previous messages and being overall slower.
 
 ### Q3: Do you have to call ```colcon build``` again after you've changed a launch file in your package? (Hint: consider two cases: calling ```ros2 launch``` in the directory where the launch file is, and calling it when the launch file is installed with the package.)
 
-No colcon build does not need to be called again after changing a launch file but it will need to be called again if you create a new launch file. Calling it again will only add the filename to your environment allowing for tab complete. It is not necessary to do so though.
+You do have to rerun colcon build if you change the launch file if it is installed during the build. If you're running ros2 launch inside the launch folder, however, then you don't need to rerun colcon build after you change the launch file.

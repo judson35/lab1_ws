@@ -59,6 +59,8 @@ public:
             }
         }
 
+        this->publish_parameters();
+
         return result;
     }
 
